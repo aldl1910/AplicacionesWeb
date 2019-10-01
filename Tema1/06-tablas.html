@@ -5,8 +5,9 @@
     <title>Tablas en html</title>
   </head>
   <body>
-    <!--TR: filas. TH: encabezado. TD: columnas.-->
-    <table border>
+    <!--TR: filas. TH: encabezado. TD: columnas. Caption: título-->
+    <table border width="50%" align="center" bgcolor="52F7E8">
+      <caption align="top">Título de la tabla.</caption>
       <tr>
       <th>Encabezado columna 1</th>
       <th>Encabezado columna 2</th>
@@ -22,6 +23,21 @@
 
       <tr>
         <td>Fila 3 - Columna 1</td> <td>Fila 3 - Columna 2</td> <td>Fila 3 - Columna 3</td>
+      </tr>
+    </table>
+    <!--2 filas, 3 columnas y título alineación de celdas -->
+    <table border width="100%" bgcolor="94F957">
+      <caption>Alineación de celdas</caption>
+      <tr>
+        <td align="left">Fila 1 - Columna 1</td>
+        <td align="center">Fila 1 - Columna 2</td>
+        <td align="right">Fila 1 - Columna 3</td>
+      </tr>
+
+      <tr height="130" cellspacing="10" cellpadding="10">
+        <td align="left" valign="top">Fila 2 - Columna 1</td>
+        <td align="center" valign="middle">Fila 2 - Columna 2</td>
+        <td align="right"  valign="bottom">Fila 2 - Columna 3</td>
       </tr>
     </table>
   </body>
