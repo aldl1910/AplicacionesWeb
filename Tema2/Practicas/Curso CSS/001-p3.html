@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Ejercicio de selectores</title>
+    <style type="text/css">
+      ul, ul li { margin: 0; padding: 0; list-style: none; }
+      h1, h2, h3, p, form { margin: 0; padding: 0; }
+      .clear { clear: both; }
+      img { border: none; }
+      #contenedor
+      {width: 90%;
+      max-width: 900px;
+      width: expression(document.body.clientWidth > 901? "900px": "auto");
+      margin: 0 auto;}
+      #cabecera, #menu, #lateral, #contenido, #contenido #principal, #contenido
+      #secundario, #pie
+      {border: 2px solid #777;}
+      #cabecera { clear: both; }
+      #menu { clear: both; }
+      #lateral { float: left; width: 20%; }
+      #contenido { float: right; width: 78%; }
+      #contenido #principal { float: left; width: 78%; }
+      #contenido #secundario { float: right; width: 20%; }
+      #pie { clear: both; }
+      #cabecera #logo { float: left; }
+      #cabecera #buscador { float: right; }
+      #menu ul#menu_principal li { display: inline; float: left; }
+      #contenido #principal .articulo img { width: 100px; float: left; }
+      #pie .enlaces   { float: left; }
+      #pie .copyright { float: right; }
+      #cabecera,
+      #menu,
+      #lateral,
+      #lateral #noticias,
+      #lateral #publicidad,
+      #contenido,
+      #contenido #principal,
+      #contenido #secundario,
+      #pie {padding: .5em;}
+      #lateral {padding: 0;}
+      #cabecera {padding: 1em;}
+      #menu {margin-bottom: .5em;}
+      #contenido {width: 77%;padding: 0;}
+      #contenido #principal {width: 73%;}
+      #pie {padding: .5em 0;margin-top: 1em;}
+      #contenido #principal .articulo {margin-bottom: 1em;}
+      #contenido #principal .articulo img {margin: .5em;}
+      #lateral #publicidad {margin-top: 1em;}
+    </style>
+  </head>
+  <body>
+    LOGOTIPO
+    Buscar
+    LoremIpsumDolorSitAmet
+    Noticias
+    dd/mm/aaaa Lorem ipsum dolor sit amet
+
+    dd/mm/aaaa Consectetuer adipiscing elit
+
+    dd/mm/aaaa Donec molestie nunc eu sapien
+
+    dd/mm/aaaa Maecenas aliquam dolor eget metus
+
+    dd/mm/aaaa Fusce tristique lorem id metus
+
+    Enlaces relacionados
+    Proin placerat
+    Nulla in felis
+    Nam luctus
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+    Imagen gen�rica
+    Nullam est lacus, suscipit ut, dapibus quis, condimentum ac, risus. Vivamus vestibulum, ipsum sollicitudin faucibus pharetra, dolor metus fringilla dui, vel aliquet pede diam tempor tortor.
+
+    Vestibulum pulvinar urna et quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam vel turpis vitae dui imperdiet laoreet. Quisque eget ipsum.
+
+    Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.
+
+    Seguir leyendo...
+
+    Vivamus lobortis turpis ac ante fringilla faucibus
+    Imagen gen�rica
+    Quisque eget ipsum. Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.
+
+    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam dictum hendrerit neque. Mauris id ligula non elit mattis semper. Fusce arcu ipsum, tempus eget, tincidunt at, imperdiet in, mi.
+
+    Sed fermentum cursus dolor. Aenean a diam. Phasellus feugiat. Donec tempor dignissim sem.
+
+    Seguir leyendo...
+
+    Phasellus blandit
+    Praesent sodales imperdiet augue. Mauris lorem felis, semper eu, tincidunt eu, sollicitudin eget, sem. Nulla facilisi. Morbi ut enim ut enim ultricies dapibus.
+
+    Seguir leyendo...
+
+    Nullam vel turpis
+    Donec commodo, turpis vel venenatis sollicitudin, quam ante convallis justo, sed eleifend justo lectus quis sapien. Ut consequat libero eget est.
+
+    Seguir leyendo...
+
+
+  </body>
+</html>
