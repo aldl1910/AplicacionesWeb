@@ -6,8 +6,8 @@ h1 {
 h2 {
   text-transform: capitalize;
   text-align: center;}
-a:link {color: #2121fe;}
-a:visited {color: red}
+a:link {color: #2121fe; font-family: Arial}
+a:visited {color: #2121fe}
 a:hover {color: black}
 a:active {color: green}
 img {
