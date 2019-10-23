@@ -1,0 +1,27 @@
+body {background-image: url(../Img/bg85.gif);}
+h1 {
+  color: red;
+  text-transform: uppercase;
+  text-align: center;}
+h2 {
+  text-transform: capitalize;
+  text-align: center;}
+a:link {color: #2121fe;}
+a:visited {color: red}
+a:hover {color: black}
+a:active {color: green}
+img {
+  margin-left: 365px;
+  margin-top: 20px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  outline: 2px ridge #f76565;
+  outline-offset: 12px;}
+p {
+  font-family: "Georgia", Times, serif;
+  color: #930000;
+  text-align: justify;
+  margin-right: 350px;
+  margin-bottom: 32px;
+  margin-left: 350px;}
+address {text-align: center}
