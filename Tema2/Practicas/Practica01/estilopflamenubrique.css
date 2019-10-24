@@ -1,4 +1,4 @@
-body {background-image: url(../Img/bg85.gif);}
+body {background-image: url(../../Img/bg85.gif);}
 h1 {
   color: red;
   text-transform: uppercase;
@@ -11,7 +11,7 @@ a:visited {color: #2121fe}
 a:hover {color: black}
 a:active {color: green}
 img {
-  margin-left: 365px;
+  margin-left: 330px;
   margin-top: 20px;
   margin-right: 25px;
   margin-bottom: 20px;
@@ -22,6 +22,9 @@ p {
   color: #930000;
   text-align: justify;
   margin-right: 350px;
-  margin-bottom: 32px;
-  margin-left: 350px;}
-address {text-align: center}
+  margin-bottom: 33px;
+  margin-left: 310px;
+  word-spacing: 6px}
+address {
+  text-align: center;
+  font-weight: bold;}
