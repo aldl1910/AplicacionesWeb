@@ -1,0 +1,33 @@
+body {margin-left: 385px; margin-right: 400px;}
+h1 {color: #008583;}
+h2 {color: #0022f6;}
+p {font-size: 18px;}
+.primerp {}
+.redbold {color: red; font-weight: bold;}
+.ye {color: #ff9f57;}
+.segunp {}
+.redsub {color: red; text-decoration: underline;}
+.blem {color: blue; font-style: italic;}
+.purplehaze {color: #a1007f;}
+.golD {color: #858228;}
+.pinku {color: #ff00f7;}
+.greem {color: #008427; text-decoration: underline;}
+address {
+  text-align: center;
+  font-weight: bold;}
+table {border-collapse: collapse; height: 30px; text-align: center; border: 1px solid black;}
+caption {color: #0022f6}
+th {color: orange; padding: 5px;}
+td {padding: 5px;}
+.ultimafila {
+  color: red;
+  font-weight: bold;}
+
+.f1-1 {color: orange; font-weight: bold;}
+.f1-2 {color: #008451; letter-spacing: -1px}
+.f1-3 {color: #008451; letter-spacing: -1px}
+.em {color: #008451; font-style: italic;}
+.f2-1 {color: red; font-weight: bold;}
+.f2-2 {color: #008451; letter-spacing: -1px}
+.ora {color: orange; font-weight: bold;}
+.f2-3 {color: #008451; letter-spacing: -1px}
